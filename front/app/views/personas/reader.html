@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anales de la Ciencia - Reader</title>
+  <link rel="stylesheet" href="/front/app/assets/stylesheets/home.css">
+  <link rel="stylesheet" href="/front/app/assets/stylesheets/personajes.css">
+  <link rel="stylesheet" href="/front/app/assets/stylesheets/profile.css">
+</head>
+<body>
+  <nav>
+    <h1>ANALES DE LA CIENCIA</h1>
+    <ul>
+      <li><a href="#personajes">Inicio</a></li>
+      <li><a href="#mi-perfil">Mi Perfil</a></li>
+      <li><button id="logout-btn">Logout</button></li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <main>
+    <div class="objetos">
+      <div class="personajes" id="personajes"></div>
+      <div class="entidades" id="entidades"></div>
+      <div class="productos" id="productos"></div>
+      <div class="asociaciones" id="asociaciones"></div>
+    </div>
+    <div class="mi-perfil" id="mi-perfil" style="display: none;">
+      <h2>Mi Perfil</h2>
+      <div id="formulario-perfil"></div>
+    </div>
+  </main>
+
+  <script type="module" src="../../javascripts/api.js"></script>
+  <script type="module" src="../../javascripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+# ⚙️ Dependencias de PHP
+/vendor/
+
+# ⚙️ Archivos de configuración sensibles
+.env
+.env.local
+
+# ⚙️ Archivos de configuración de PHPUnit
+phpunit.xml
+phpunit.xml.cache
+
+# ⚙️ Cachés y logs
+*.log
+.cache/
+tmp/
+var/
+
+# ⚙️ Archivos generados por Composer
+composer.lock
+
+# ⚙️ Archivos de cobertura y pruebas
+coverage/
+infection.log
+infection-cache.json
+test-results/
+
+# ⚙️ Informes y métricas
+phpmetrics.html
+phpmetrics.json
+phpstan.neon
+phpstan-result.cache
+
+# ⚙️ Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# ⚙️ Archivos de editor y entorno
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ⚙️ Archivos de frontend (si se usa npm/yarn para JS)
+node_modules/
+dist/
+build/
+
+# ⚙️ Swagger UI cache (si aplica)
+public/api-docs/.swagger-cache/
+
+# ⚙️ Otros archivos temporales
+*.bak
+*.swp
+*.tmp
